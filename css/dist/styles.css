@@ -45,6 +45,7 @@ body { background: rgb(0, 0, 0); }
       --color-text: #FFFFFF; 
       --color-background: darkblue;
       --max: gray;
+      --span-color: skyblue;
       --h2-color: #39FF14;
       --color-text-sections-darkblue: darkblue; 
       
@@ -205,6 +206,7 @@ body {
     .card-tag {
         /* small label: font-size, padding, background, border-radius */
        color: var(--color-text-sections-darkblue);
+       font-size: var(--font-size-body-xs);
     }
 
 
