@@ -297,7 +297,7 @@ body {
     flex-direction:column;
     padding: var(--spacing-large, 1rem) var(--spacing-medium, 1rem);
     background-color: var(--color-main-bgdark);
-    color: var(--color-text);
+    color: var(--color-header);
     text-align: center;
     font-size: var(--font-size-body-sm);
 }
