@@ -1,11 +1,11 @@
 
-@layer tokens, base, layout, components, utilities;
-
-@import './tokens/colors.css' layer(tokens);
-@import './tokens/variables.css' layer(tokens);
+@layer base, tokens, layout, components, utilities;
 
 @import './base/reset.css' layer(base);
 @import './base/elements.css' layer(base);
+
+@import './tokens/colors.css' layer(tokens);
+@import './tokens/variables.css' layer(tokens);
 
 @import './layout/primary.css' layer(layout);
 
