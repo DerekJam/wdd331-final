@@ -9,7 +9,7 @@ body { background: rgb(0, 0, 0); }
 /*.site-header is good to go */
 .site-header {
     position: sticky;
-    top: 1rem;
+    top: 0;
     overflow: visible;
     margin-inline: auto;
     display: flex;
@@ -287,11 +287,16 @@ body {
 
 
 
-footer {
-    width: max-content;
+.footer {
+    position: sticky;
+    top: 0;
+    overflow: visible;
     margin-inline: auto;
     display: flex;
+    width: 100%;
     flex-direction:column;
-    padding: var(--spacing-large, 2rem) var(--spacing-medium, 1rem);
-    background-color: lightgoldenrodyellow;
+    padding: var(--spacing-large, 1rem) var(--spacing-medium, 1rem);
+    background-color: var(--color-main-bgdark);
+    color: var(--color-text);
+    text-align: center;
 }
