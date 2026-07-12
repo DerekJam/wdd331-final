@@ -13,6 +13,7 @@ body { background: rgb(0, 0, 0); }
     overflow: visible;
     margin-inline: auto;
     display: flex;
+    width: 100%;
     flex-direction:column;
     padding: var(--spacing-large, 1rem) var(--spacing-medium, 1rem);
     background-color: var(--color-main-bgdark);
@@ -79,7 +80,7 @@ body { background: rgb(0, 0, 0); }
 *::after {
     box-sizing: border-box;
     margin: 0;
-    padding: 10px;
+    padding: 0;
 }
 
 /* ========================================
