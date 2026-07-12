@@ -289,7 +289,7 @@ body {
 
 .site-footer {
     position: sticky;
-    top: 0;
+    bottom: 0;
     overflow: visible;
     margin-inline: auto;
     display: flex;
