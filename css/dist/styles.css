@@ -139,7 +139,7 @@ body {
 
 .card-grid h2 {
     color: var(--h2-color);
-    font-size: var(--font-size-body-sm);
+    font-size: var(--font-size-body-md);
 }
 
 
@@ -206,7 +206,7 @@ body {
     .card-tag {
         /* small label: font-size, padding, background, border-radius */
        color: var(--color-text-sections-darkblue);
-       font-size: var(--font-size-body-xs);
+       font-size: var(--font-size-body-sm);
     }
 
 
