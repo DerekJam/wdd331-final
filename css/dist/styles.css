@@ -43,7 +43,7 @@ body { background: rgb(0, 0, 0); }
       --color-main-bgdark: black;
       --color-header: #39FF14;
       --color-text: #FFFFFF; 
-      --color-background: #4B9CD3;
+      --color-background: darkblue;
       --max: gray;
       --h2-color: gold;
       --color-text-sections-darkblue: darkblue; 
@@ -57,14 +57,14 @@ body { background: rgb(0, 0, 0); }
       --font-size-links: 1.25rem;
 
       --radius: 0.50rem;
-      --shadow-sm: 0 1px 3px rgb(255, 255, 255);
+      --shadow-sm: 0 1px 3px rgb(0, 224, 56);
 
 
           /* Cards: Shadow Medium */
         --shadow-medium:
-        0 2px 4px oklch(100% 0.00011 271.152),
-        0 6px 12px oklch(100% 0.00011 271.152),
-        0 16px 32px oklch(100% 0.00011 271.152);
+        0 2px 4px oklch(78.754% 0.25161 144.491),
+        0 6px 12px oklch(78.754% 0.25161 144.491),
+        0 16px 32px oklch(78.754% 0.25161 144.491);
 }
 
 
