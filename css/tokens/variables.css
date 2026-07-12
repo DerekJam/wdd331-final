@@ -37,8 +37,8 @@
 
 
     /* Map steps to semantic roles - Unit 5 Part 1 */
-      --font-size-body:       var(--font-size-md);
-      --font-size-body:       var(--font-size-sm);
+      --font-size-body-md:       var(--font-size-md);
+      --font-size-body-sm:       var(--font-size-sm);
       --font-size-caption:    var(--font-size-xs);
       --font-size-heading-sm: var(--font-size-xl);
       --font-size-heading-lg: var(--font-size-3xl);
