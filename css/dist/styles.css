@@ -56,25 +56,6 @@ body { background: rgb(0, 0, 0); }
       --font-body: Verdana, Helvetica, sans-serif;
       --font-size-links: 1.25rem;
 
-      --font-size-body-xs:    var(--font-size-xs);
-      --font-size-body-md:       var(--font-size-md);
-      --font-size-body-sm:       var(--font-size-sm);
-      --font-size-caption:    var(--font-size-xs);
-      --font-size-heading-sm: var(--font-size-xl);
-      --font-size-heading-lg: var(--font-size-3xl);
-      --font-size-display:    var(--font-size-4xl);
-
-
-
-      --font-size-xs:  0.64rem; /* 10.24px */;
-      --font-size-sm:  0.8rem; /* 12.80px */;
-      --font-size-md:  1rem; /* 16px */;
-      --font-size-lg:  1.25rem; /* 20px */;
-      --font-size-xl:  1.563rem; /* 25px */;
-      --font-size-2xl: 1.953rem; /* 31.25px */;
-      --font-size-3xl: 2.441rem; /* 39.06px */;
-      --font-size-4xl: 3.052rem; /* 48.83px */;
-
       --radius: 0.50rem;
       --shadow-sm: 0 1px 3px rgb(0, 224, 56);
 
