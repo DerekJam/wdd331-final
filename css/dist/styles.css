@@ -41,11 +41,11 @@ body { background: rgb(0, 0, 0); }
 
 :root {
       --color-main-bgdark: black;
-      --color-header: #39FF14;
+      --color-header: gold;
       --color-text: #FFFFFF; 
       --color-background: darkblue;
       --max: gray;
-      --h2-color: gold;
+      --h2-color: #39FF14;
       --color-text-sections-darkblue: darkblue; 
       
       --space-sm: 0.75rem;
@@ -299,4 +299,5 @@ body {
     background-color: var(--color-main-bgdark);
     color: var(--color-text);
     text-align: center;
+    font-size: var(--font-size-body-sm);
 }
