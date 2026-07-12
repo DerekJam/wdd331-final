@@ -144,8 +144,8 @@ body {
 
 
 .card-text {
-    color: var(--h2-color);
-    font-size: var(--font-size-body-md);
+    color: var(--span-color);
+    font-size: var(--font-size-body-sm);
 }
 
 
