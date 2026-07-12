@@ -7,7 +7,7 @@
 @import './tokens/colors.css' layer(tokens);
 @import './tokens/variables.css' layer(tokens);
 
-@import './layout/primary.css' layer(layout);
+/* @import './layout/primary.css' layer(layout); */
 
 @import './components/cards.css' layer(components);
 @import './components/nav.css' layer(components);
