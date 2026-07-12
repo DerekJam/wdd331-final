@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Derek J. Steele | Styling SVG with CSS</title>
+    <link rel="stylesheet" href="/wdd331-practice/unit-6/styling-svg/styling-svg.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <span class="site-name">
+            <section class="dashboard-header">
+                <div>
+                    <h1>Derek J. Steele</h1>
+                    <h2>Styling SVG with CSS</h2>
+                </div>
+            </section>
+        </span>
+        <nav>
+            <a href="/wdd331-practice/index.html">WDD 331 / Home</a>
+        </nav>
+    </header>
+
+    <main>
+
+
+        <section class="magic">Circles and a Button</section>
+
+        <section class="card-grid">
+
+            <svg width="300" height="300">
+            <circle class="circle-time" cx="75" cy="75" r="60" fill="red" stroke="black" stroke-width="2"></circle>
+            </svg>
+
+            <svg width="300" height="300">
+            <circle class="circle-time" cx="75" cy="75" r="60" fill="red" stroke="black" stroke-width="2"></circle>
+            </svg>
+
+            <svg width="300" height="300">
+            <circle class="circle-time" cx="75" cy="75" r="60" fill="red" stroke="black" stroke-width="2"></circle>
+            </svg>
+
+
+            <button class="email" type="button" onclick="sendEmail()">
+                Send an email
+                
+                <svg width="75" height="75">
+                    <circle class="circle-small" cx="18.75" cy="18.75" r="15" stroke="black" stroke-width="1"></circle>
+                </svg>
+
+                <svg width="75" height="75">
+                    <circle class="circle-small" cx="18.75" cy="18.75" r="15" stroke="black" stroke-width="1"></circle>
+                </svg>
+                
+            </button>
+
+        </section>
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--below from AI--> 
+<script>
+function sendEmail() {
+    window.location.href = "mailto:ste17081@byui.edu";
+}
+</script>
+ <!--above from AI--> 
+
+
+
+
+</body>
+</html>

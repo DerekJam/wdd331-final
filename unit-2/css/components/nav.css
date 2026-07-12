@@ -1,0 +1,35 @@
+/* Navigation component: .site-nav and its links
+   Style the active link using aria-current. */
+
+/* TODO: Style the navigation */
+
+   .site-nav {
+        /* link color from tokens blue */
+         color: var(--color-hover);
+         text-align: center;
+         margin: var(--space-md);
+         padding: clamp(var(--space-sm), var(--space-flex), var(--space-lg));
+
+
+
+      a {
+        /* link color from tokens */
+         color: var(--color-hover);
+       
+        &:hover {
+            /* hover color from tokens */
+         color: var(--color-links);
+        }
+      }
+
+        }
+
+
+
+.horizontal-list {
+  display: inline-block; 
+}
+
+.horizontal-list li { /* borrowed from online search */
+  display: inline-block; 
+}
