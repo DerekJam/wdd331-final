@@ -1,12 +1,12 @@
-# WDD 331R Practice Site
+# WDD 331R Site
 
 **Student:** Derek Steele
 **Semester:** Spring 2026
-**Live Site:** [View Site](https://derekjam.github.io/wdd331-practice/)
+**Live Site:** [View Site](https://derekjam.github.io/wdd331-final/)
 
 ## About
 
-This repository is my Practice Site for WDD 331R: Advanced CSS.
+This repository is my site for WDD 331R: Advanced CSS.
 Each week I add new pages and styles as I work through the course
 assignments. The site deploys automatically to GitHub Pages on
 every push to main.
