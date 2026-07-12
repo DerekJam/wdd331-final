@@ -8,10 +8,6 @@
       --spacing-flex: 2vw;
       
   
-
-
-
-
     /* Modular scale steps: replaced with chosen ratio values - Unit 5 Part 1 : AI indicated should go up or down by 1.25 for each step */
       --font-size-xs:  0.64rem; /* 10.24px */;
       --font-size-sm:  0.8rem; /* 12.80px */;
