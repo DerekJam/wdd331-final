@@ -1,0 +1,160 @@
+
+.clip-wrap {
+  text-align: center;
+}
+
+.element {
+  width: auto;
+  height: auto;
+  clip-path: polygon(0 100%, 0 0, 100% 0, 80% 100%);
+}
+
+.filter-blur {
+  text-align: center;
+}
+
+.blur {
+  width: auto;
+  height: auto;
+  clip-path: circle(100%);
+  filter: blur(3px);
+}
+
+
+
+
+
+.card-section {
+    /* margin-bottom using a token */
+
+    h4 {
+        /* section heading styles */
+          background-color: var(--color-accent);
+          color: var(--color-cards-text);
+          padding: var(--spacing-medium);
+          border-radius: var(--radius);
+          box-shadow: var(--shadow-sm);
+          font-family: var(--font-body-header);
+    }
+}
+
+.cards {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   padding: clamp(var(--spacing-small), var(--spacing-medium), var(--spacing-large));
+   gap: 1rem;
+}
+
+
+.cards article {
+  width: 100%;
+}
+
+
+.card-image {
+  width: 100%;
+  display: block;
+}
+
+
+.glass-section {
+    /* margin-bottom using a token */
+
+    h4 {
+        /* section heading styles */
+          background-color: var(--color-accent);
+          color: var(--color-cards-text);
+          padding: var(--spacing-medium);
+          border-radius: var(--radius);
+          box-shadow: var(--shadow-sm);
+          font-family: var(--font-body-header);
+    }
+}
+
+
+
+/* Glass panel had to get AI to explain and do what I was missing */
+.glass-panel {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+
+/* Glass bg image is okay */
+.glass-bg-image {
+    opacity: 0.5;
+}
+
+
+/* Glass background had to get AI to explain what I was missing */
+.glass-background {
+  position: relative;
+}
+
+
+
+
+
+
+
+.icon-section {
+    /* margin-bottom using a token */
+
+    h4 {
+        /* section heading styles */
+          background-color: var(--color-accent);
+          color: var(--color-cards-text);
+          padding: var(--spacing-medium);
+          border-radius: var(--radius);
+          box-shadow: var(--shadow-sm);
+          font-family: var(--font-body-header);
+    }
+}
+
+.icon-row {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+   padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
+}
+
+
+.icon-item {
+  height: 60px;
+  width: 60px;
+  object-fit: contain;
+  filter: drop-shadow(20px 10px 4px fuchsia);
+}
+
+
+.cards-polygon-blur {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
+}
+
+
+
+
+
+
+
+
+
+/* Had AI help because I did not know what the correct CSS was for the hero-image to make it scale full-width, etc. */
+.hero-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
+
+
+/* CSS for text shadow*/
+.intro-with-yellow-shadow {
+  text-shadow: 4px 4px 8px yellow;
+  font-size: 1.2rem;
+  color: white;
+}
+
+

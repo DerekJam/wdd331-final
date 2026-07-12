@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Derek J. Steele | Contact</title>
+    <link rel="stylesheet" href="/wdd331-practice/css/contact.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <span class="site-name">
+            <section class="dashboard-header">
+                <div>
+                    <h1>Derek J. Steele</h1>
+                    <h2>Contact</h2>
+                </div>
+            </section>
+        </span>
+        <nav>
+            <a href="/wdd331-practice/index.html">WDD 331 / Home</a>
+            <a href="/wdd331-practice/resume.html" class="nav-cta">Resume</a>
+        </nav>
+    </header>
+
+    <main>
+
+
+
+        <section class="magic">Leave Feedback</section>
+
+        <section class="card-grid">
+
+            <!--below from AI--> 
+            <div class="feedback-form">
+            
+            <textarea id="comments" placeholder="Enter your comments here"></textarea>
+
+                <button type="button" class="email" onclick="sendEmail()">
+                    Click here to send the comments entered via email
+                </button>
+
+            </div>
+            <!--above from AI--> 
+          
+        </section>
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+ <!--below from AI--> 
+<script>
+function sendEmail() {
+
+    // Get what the user typed
+    const comments = document.getElementById("comments").value;
+
+    // Your email address
+    const email = "ste17081@byui.edu";
+
+    // Email subject
+    const subject = "Website Comments";
+
+    // Build the mailto link
+    const mailtoLink =
+        "mailto:" + email +
+        "?subject=" + encodeURIComponent(subject) +
+        "&body=" + encodeURIComponent(comments);
+
+    // Open the user's email program
+    window.location.href = mailtoLink;
+}
+</script>
+ <!--below from AI--> 
+
+
+</body>
+</html>

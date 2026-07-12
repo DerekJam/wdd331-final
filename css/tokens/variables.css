@@ -1,0 +1,130 @@
+/* Non-color tokens: spacing, typography, borders, shadows.
+   These values should be referenced by every other layer. */
+:root {
+    /* Spacing Tokens*/
+      --spacing-small: 0.50rem;
+      --spacing-medium: 1.00rem;
+      --spacing-large: 1.50rem;
+      --spacing-flex: 2vw;
+      
+  
+
+
+
+
+    /* Modular scale steps: replaced with chosen ratio values - Unit 5 Part 1 : AI indicated should go up or down by 1.25 for each step */
+      --font-size-xs:  0.64rem; /* 10.24px */;
+      --font-size-sm:  0.8rem; /* 12.80px */;
+      --font-size-md:  1rem; /* 16px */;
+      --font-size-lg:  1.25rem; /* 20px */;
+      --font-size-xl:  1.563rem; /* 25px */;
+      --font-size-2xl: 1.953rem; /* 31.25px */;
+      --font-size-3xl: 2.441rem; /* 39.06px */;
+      --font-size-4xl: 3.052rem; /* 48.83px */;
+
+
+    /* Clamp scales - mobile to desktop - Unit 5 Part 1 - font-size: clamp(min-size, slope-vw + intercept-rem, max-size);
+      Provided from: @link https://utopia.fyi/type/calculator?c=375,12.8,1.2,1240,12.8,1.25,6,3,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12
+      */
+      --font-size-xs: clamp(0.64rem, 0.6782rem + -0.0493vw, 0.6667rem);
+      --font-size-sm: clamp(0.8rem, 0.8rem + 0vw, 0.8rem);
+      --font-size-md: clamp(0.96rem, 0.9427rem + 0.074vw, 1rem);
+      --font-size-lg: clamp(1.152rem, 1.1095rem + 0.1813vw, 1.25rem);
+      --font-size-xl: clamp(1.3824rem, 1.3043rem + 0.3331vw, 1.5625rem);
+      --font-size-2xl: clamp(1.6589rem, 1.5313rem + 0.5443vw, 1.9531rem);
+      --font-size-3xl: clamp(1.9907rem, 1.7952rem + 0.8338vw, 2.4414rem);
+      --font-size-4xl: clamp(2.3888rem, 2.1014rem + 1.2263vw, 3.0518rem);
+
+
+    /* Map steps to semantic roles - Unit 5 Part 1 */
+      --font-size-body:       var(--font-size-md);
+      --font-size-body:       var(--font-size-sm);
+      --font-size-caption:    var(--font-size-xs);
+      --font-size-heading-sm: var(--font-size-xl);
+      --font-size-heading-lg: var(--font-size-3xl);
+      --font-size-display:    var(--font-size-4xl);
+
+
+    /* Load One Custom Web Font - Google Fonts - Unit 5 Part 1 */
+      --font-family-heading: "Times New Roman", Times, serif;
+      --font-family-body:    "Verdana", Helvetica, sans-serif;
+
+
+      
+
+
+
+
+    /* Border Radius Token */  
+      --radius: 0.50rem;
+
+    /* Shadow */
+      --shadow-sm: 1.00rem;
+
+
+    /* Level 1: Shadow Small */
+        --shadow-small:
+        0 1px 2px oklch(62.832% 0.25728 29.173),
+        0 2px 4px oklch(62.832% 0.25728 29.173);
+
+    /* Level 2: Shadow Medium */
+        --shadow-medium:
+        0 2px 4px oklch(100% 0.00011 271.152),
+        0 6px 12px oklch(100% 0.00011 271.152),
+        0 16px 32px oklch(100% 0.00011 271.152);
+
+    /* Level 3: Shadow Large */
+        --shadow-large:
+        0 4px 8px oklch(87.587% 0.28215 140.052),
+        0 12px 24px oklch(87.587% 0.28215 140.052),
+        0 24px 48px oklch(87.587% 0.28215 140.052);
+
+        /* Text Shadow from examples */
+        --text-shadow: #ffcc00 1px 0 10px;
+        
+}
+
+.leftimage     { box-shadow: var(--shadow-small); }
+.middleimage       { box-shadow: var(--shadow-medium); }
+.rightimage      { box-shadow: var(--shadow-large); }
+
+
+
+
+.leftimage:hover .card-image {
+  opacity: 0.3;
+}
+
+
+.middleimage:hover {
+  background: linear-gradient(to right, blue, green);
+}
+
+.rightimage:hover .card-image {
+  filter: sepia(100%);
+}
+
+
+
+
+   .card-body {
+        /* card body for elevation cards */
+         color: white;
+         text-align: left;
+         margin: var(--spacing-medium);
+         padding: clamp(var(--spacing-small), var(--spacing-flex), var(--spacing-medium));
+         line-height: 1.2;
+        }
+
+    .card-body2 {
+        /* card body for middle card in elevation cards */
+         color: white;
+         text-align: left;
+         margin: var(--spacing-medium);
+         padding: clamp(var(--spacing-small), var(--spacing-flex), var(--spacing-medium));
+         line-height: 1.2;
+        }
+
+
+
+

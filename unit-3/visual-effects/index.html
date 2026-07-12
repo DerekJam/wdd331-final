@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/tokens/variables.css">
+  <link rel="stylesheet" href="https://derekjam.github.io/wdd331-practice/css/main.css">
+  <title>Unit 3: Visual Effects</title>
+
+<!--Below added on 7.4.2026 as part of Unit 3 assignment make up -->
+    <script src="/css/js/theme-preference.js"></script>
+    <link rel="stylesheet" href="/css/dist/styles.css">
+<!--Above added on 7.4.2026 as part of Unit 3 assignment make up -->
+  
+<!-- Below is from 4. Add the Toggle HTML from Unit 3 Prove added on 7.4.2026 "Add the following markup to the header or navigation area of every page on your site" -->
+<details class="theme-menu">
+    <summary class="theme-control">
+        <span class="visually-hidden">Color scheme</span>
+    </summary>
+    <div class="theme-extra" role="group" aria-label="Choose color scheme">
+        <label class="theme-control theme-pick" data-theme-pick="light">
+            <input name="theme-preference" type="radio" value="light">
+            <span aria-hidden="true">&#9788;&#65039;</span>
+            <span class="visually-hidden">Light</span>
+        </label>
+        <label class="theme-control theme-pick" data-theme-pick="system">
+            <input name="theme-preference" type="radio" value="system" checked>
+            <span aria-hidden="true">&#9881;&#65039;</span>
+            <span class="visually-hidden">System default</span>
+        </label>
+        <label class="theme-control theme-pick" data-theme-pick="dark">
+            <input name="theme-preference" type="radio" value="dark">
+            <span aria-hidden="true">&#127766;</span>
+            <span class="visually-hidden">Dark</span>
+        </label>
+    </div>
+</details>
+<!--Above is from 4. Add the Toggle HTML from Unit 3 Prove added on 7.4.2026 "Add the following markup to the header or navigation area of every page on your site" -->
+
+</head>
+
+
+
+
+<body>
+
+<nav class="u3site-nav">
+    <ul>
+        <li><a href="../../index.html">&larr; Home</a></li>
+        <li><a href="https://derekjam.github.io/wdd331-practice/unit-1/custom-properties/index.html">Unit 1</a></li>
+        <li><a href="https://derekjam.github.io/wdd331-practice/unit-2/index.html">Unit 2</a></li>
+        <li><a href="#">Current Page</a></li>
+    </ul>
+    <br>
+</nav>
+
+<!-- HERO: Use a gradient overlay and text-shadow for depth -->
+<header class="u3hero-header">
+        <div class="u3herocontent">
+        <h1>Visual Effects Showcase</h1>
+        <p>
+            <span class="intro-with-yellow-shadow">Shadows</span>, gradients, and filters working together.
+        </p>
+    </div><br>
+<br>
+
+
+    <img
+        class="hero-image"
+        src="https://cdn.prod.website-files.com/683a4969614808c01cd0d378/683a4e53cca84f4da811a40b_Phoenix-cityscape_b2b0b89039603b931027eb2900b66531.jpg"
+        alt="Tempe Arizona"
+    >
+</header>
+<br><br><br>
+<main>
+    <!-- CARDS: Elevation shadows, hover transitions -->
+
+
+<!--TESTED BELOW ON 5.30-->
+
+<section class="card-section">
+    <h2>Elevation Cards</h2>
+<br>
+    <div class="cards">
+
+            <article class="leftimage">
+                    <img src="https://cdn11.bigcommerce.com/s-karer354/images/stencil/1280x1280/products/219482/865043/3_31_22_1016__55190.1648753808.jpg?c=2" 
+                    alt="demo-clip-css" 
+		    class="card-image">
+            <br>
+                <div class="card-body">
+                    <p>Layered Shadows</p><br>
+		    <p>Multiple shadow layers create realistic depth that changes on hover.</p>
+                </div>   
+            </article>
+
+            <article class="middleimage">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXkq3LHuPa-a0-MaaAk0bUm6x2eIIi3SqBBA&s" 
+                    	alt="Placeholder image" 
+			class="card-image">
+            <br>
+                <div class="card-body2">
+                      <p>Gradient Surfaces</p><br>
+		      <p>A subtle gradient on the card background on hover adds dimension without distracting from content.</p>
+                </div>  
+            </article>
+
+            <article class="rightimage">
+                    <img src="https://m.media-amazon.com/images/I/41S2MTDhlhL._AC_UF894,1000_QL80_.jpg" 
+                    	alt="Placeholder image" 
+			class="card-image"><br>
+                <div class="card-body">
+                      <p>Filtered Images</p><br>
+		      <p>A grayscale or sepia filter on the image that appears on hover draws attention to active cards.</p>
+                </div>  
+            </article>
+
+    </div>
+
+</section>
+<!--TESTED ABOVE ON 5.30-->
+
+
+<br><br><br>
+    <!-- GLASS PANEL: backdrop-filter for frosted glass -->
+    <section class="glass-section">
+                    <h2>Frosted Glass</h2><br>
+
+        <div class="glass-background">
+            <img
+                src="https://picsum.photos/seed/glass-bg/1200/400"
+                alt="Background image behind glass panel"
+                class="glass-bg-image"
+            >
+
+            
+        <div class="glass-panel">
+            <p>
+                This panel uses backdrop-filter to blur and saturate the
+                image behind it. The text stays sharp while the background
+                softens into a frosted surface.
+            </p>
+        </div>
+        </div>
+    </section>
+<br><br><br>
+
+
+
+    <!-- ICON ROW: drop-shadow on transparent images -->
+    <section class="icon-section">
+        <h2>Drop Shadow on Transparent Images</h2>
+        <br>
+        <div class="icon-row">
+            <!-- DJS: I adjusted and replace the existing ones with transparent PNGs or SVGs found online -->
+            <img class="icon-item" src="https://static.vecteezy.com/system/resources/thumbnails/023/986/885/small/instagram-logo-instagram-logo-transparent-instagram-icon-transparent-free-free-png.png" alt="IG icon">
+            <img class="icon-item" src="https://i.sstatic.net/3ZGvh.png" alt="Clouds icon">
+            <img class="icon-item" src="https://cdn-icons-png.flaticon.com/512/12/12366.png" alt="Fire icon">
+            <img class="icon-item" src="https://clipart-library.com/images/gTe5Mkjnc.png" alt="Heart icon">
+        </div><br>
+        <p>
+            These icons use drop-shadow() instead of box-shadow so the shadow
+            follows the actual shape of each image rather than its bounding box.
+        </p>
+    </section>
+
+    <!-- CHOOSE TOPIC: Add your own section here if applicable -->
+    <!--
+        If you completed a choose topic (blend modes, clip-path,
+        shape-outside, advanced gradients, or filter performance),
+        add a section below that demonstrates at least one technique
+        from it. Add the HTML you need and style it in your effects.css.
+        DJS: I added this below
+    -->
+<br><br><br>
+
+
+
+<section class="card-section">
+    <h2>Clip-wrap and Filter-blur</h2>
+<br>
+    <div class="cards">
+            <article class="card">
+                    <img src="https://www.churchofjesuschrist.org/imgs/1338540dbbcfd411090e1506ddd7bfb3f94a10c9/full/!320,/0/default" 
+                    alt="demo-clip-css" class="element">
+            
+                <div class="card-body">
+                    <p>Polygon Clip-wrap</p>
+                </div>   
+            </article>
+            <article class="card">
+                    <img src="https://www.churchofjesuschrist.org/imgs/9knz0ov0r0gsjcscpyqqre30l5zr52uuajqrjuzs/full/!320%2C384/0/default" 
+                    alt="Image behind" class="blur">
+                <div class="card-body">
+                      <p>Filter-blur</p>
+                </div>  
+            </article>
+    </div>
+
+</section>
+
+
+</main>
+
+
+
+
+<footer class="u3site-footer">
+    <p> &copy; 2026 My Practice Site (adjusted for WDD331 assignments by Derek Steele)</p>
+</footer>
+
+
+
+
+</body>
+</html>

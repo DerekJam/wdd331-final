@@ -1,0 +1,53 @@
+/* Card components: .card-group, .cards grid, .card, .card-tag, .card-footer
+   Use native nesting. Reference tokens with var(). */
+
+/* TODO: Style the card components */
+:is(.card-group, .cards-grid, .card, .card-tag)
+     p {margin: var(--spacing-small);
+     }     
+
+
+
+    .card-group {
+        /* link color from tokens bright green */
+         color: var(--color-text);
+         margin: var(--spacing-small);
+        }
+
+   .cards-grid {
+        /* link color from tokens white */
+         color: var(--color-primary);
+         border: 3px solid var(--color-text);
+         background-color: var(--color-primary);
+         padding: var(--spacing-medium);
+         border-radius: var(--radius);
+         margin: var(--spacing-small);
+         line-height: 1.2;
+        }
+
+   .card {
+        /* link color from tokens dark gray */
+         color: var(--color-vlinks);
+         text-align: left;
+         margin: var(--spacing-small);
+         padding: clamp(var(--spacing-small), var(--spacing-flex), var(--spacing-medium));
+         line-height: 1.2;
+        }
+
+   .card-tag {
+        /* Title, ex. Book of Mormon, Doctrine and Covenants, etc. */
+         color: var(--color-accent);
+         text-align: left;
+         margin: var(--spacing-small);
+         padding: clamp(var(--spacing-small), var(--spacing-flex), var(--spacing-medium));
+         line-height: 1.2;
+        }
+
+   .card-footer {
+        /* scripture verses and link section */
+         color: var(--color-hover);
+         text-align: left;
+         margin: var(--spacing-medium);
+         padding: clamp(var(--space-small), var(--spacing-flex), var(--spacing-large));
+         line-height: 1.2;
+        }

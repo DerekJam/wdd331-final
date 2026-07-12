@@ -1,0 +1,65 @@
+/* Primary page layout: provided for you.
+   Focus your work on tokens, base, components, and utilities. */
+
+body {
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    max-width: 64rem;
+    width: 100%;
+    margin-inline: auto;
+    padding-inline: var(--space-md, 1rem);
+}
+
+main > section {
+    margin-bottom: var(--space-xl, 3rem);
+}
+
+.page-header {
+    max-width: 64rem;
+    width: 100%;
+    margin-inline: auto;
+    padding: var(--space-lg, 2rem) var(--space-md, 1rem);
+}
+
+.page-footer {
+    max-width: 64rem;
+    width: 100%;
+    margin-inline: auto;
+    padding: var(--space-lg, 2rem) var(--space-md, 1rem);
+}
+
+
+.main-header {
+   text-align: center;
+   margin: var(--space-md);
+   padding: clamp(var(--space-sm), var(--space-flex), var(--space-lg));
+}
+
+.main-header h1 {
+    font-size: clamp(2.5rem, 3.0rem, 3.5rem);
+}
+
+.main-header h2 {
+    font-size: clamp(1.75rem, 2.25rem, 2.75rem);
+}
+
+.main-header p {
+    font-size: clamp(.75rem, 1.0rem, .25rem);
+}
+
+.header-intro {
+          background-color: var(--color-cards);
+          color: var(--color-cards-text);
+          padding: var(--spacing-medium);
+          border-radius: var(--radius);
+          box-shadow: var(--shadow-sm);
+          font-family: var(--font-family);
+}
+
+
+

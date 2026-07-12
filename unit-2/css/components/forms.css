@@ -1,0 +1,25 @@
+/* Form components: .note-form, .form-field, inputs, textarea, select
+   Use native nesting. Add :focus-visible styles to all inputs. */
+
+/* TODO: Style the form components */
+
+   .note-form {
+        /* link color from tokens light blue */
+         color: var(--color-links);
+         text-align: left;
+         margin: var(--spacing-small);
+         padding: clamp(var(--spacing-small), var(--spacing-flex), var(--spacing-large));
+         line-height: 1.2;
+   }
+
+
+      a {
+        /* link color from tokens */
+         color: var(--color-links);
+       
+        &:hover {
+            /* hover color from tokens */
+         color: var(--color-hover);
+        }
+      }
+
