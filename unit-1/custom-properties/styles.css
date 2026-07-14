@@ -48,6 +48,45 @@
     padding: 0;
 }
 
+
+
+/* ========================================
+   MEDIA STYLES
+   ======================================== */
+
+/* Below adjusted from the BYU-I reading */
+@media (prefers-reduced-motion: no-preference)
+{
+
+@keyframes status-badge {
+	from { transform: scale(1); }
+	to   { transform: scale(2); }
+}
+
+}
+/* Above adjusted from the BYU-I reading / AI helped to explain that the @keyframes and .status-badge need to be in the {} of @media */
+
+
+/*  ========================================
+    PROGRESSIVE ENHANCEMENT
+    Share tracks with the parent
+    ======================================== */
+    @supports (grid-template-rows: subgrid) 
+    {
+        .card-grid {
+            grid-template-rows: auto 1fr auto;
+            align-items: stretch;
+         }
+
+        .card {
+        grid-row: span 3;
+        grid-template-rows: subgrid;
+        }
+    }
+
+
+
+
 /* ========================================
    BASE STYLES
    Style the body, links, and any raw
@@ -87,6 +126,7 @@ body {
     /* padding, margin-bottom */
    padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
 }
+
 
 /* ========================================
    BOARD HEADER
@@ -187,4 +227,23 @@ body {
       margin: var(--space-md);
       padding: clamp(var(--space-sm), var(--space-flex), var(--space-lg));
 
+}
+
+
+/* ========================================
+   SITE FOOTER
+   ======================================== */
+   .site-footer {
+    position: sticky;
+    bottom: 0;
+    overflow: visible;
+    margin-inline: auto;
+    display: flex;
+    width: 100%;
+    flex-direction:column;
+    padding: var(--spacing-large, 1rem) var(--spacing-medium, 1rem);
+    background-color: var(--color-main-bgdark);
+    color: var(--color-header);
+    text-align: center;
+    font-size: var(--font-size-body-xs);
 }
