@@ -280,15 +280,15 @@ div.status {
     flex-direction:column;
     padding: var(--spacing-large, 1rem) var(--spacing-medium, 1rem);
     background-color: var(--color-main-bgdark);
-    color: var(--color-text);
+    color: var(--h2-color);
     text-align: center;
     
         a {
-         color: var(--span-color);
+         color: var(--color-background);
          }
 
         a:hover {
-         color: var(--h2-color);
+         color: var(--color-header);
          }
 
         a:visited {
