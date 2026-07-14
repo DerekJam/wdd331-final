@@ -52,6 +52,8 @@ body { background: rgb(0, 0, 0); }
       --max: gray;
       --h2-color: gold;
       --color-text-sections-darkblue: darkblue; 
+      --span-color: skyblue;
+            --headerbox: rgb(0, 54, 0);
       
       --space-xs: 0.50rem;
       --space-sm: 0.75rem;
@@ -71,7 +73,7 @@ body { background: rgb(0, 0, 0); }
       --radius: 0.50rem;
       --shadow-sm: 0 1px 3px rgb(255, 255, 255);
 
-            --font-size-xs:  0.64rem; /* 10.24px */;
+      --font-size-xs:  0.64rem; /* 10.24px */;
       --font-size-body-xs:    var(--font-size-xs);
 
     /* Clamp scales - mobile to desktop - Unit 5 Part 1 - font-size: clamp(min-size, slope-vw + intercept-rem, max-size);
@@ -94,6 +96,12 @@ body { background: rgb(0, 0, 0); }
       --spacing-medium: 1.00rem;
       --spacing-large: 1.50rem;
       --spacing-flex: 2vw;
+
+     --space-sm: 0.75rem;
+      --space-md: 1.25rem;
+      --space-lg: 2.50rem;
+      --space-flex: 2vw;
+
 }
 
 
@@ -141,8 +149,8 @@ header {
     margin-inline: auto;
     display: flex;
     width: 100%;
-    flex-direction:column;
-    padding: var(--spacing-large, 1rem) var(--spacing-medium, 1rem);
+    flex-direction: column;
+    padding: var(--space-sm, 1rem) var(--space-md, 1rem);
     background-color: var(--color-main-bgdark);
     color: var(--color-text);
     text-align: center;
@@ -159,7 +167,6 @@ header {
          color: var(--max);
          }
 }
-/*.site-header is good to go */
 
 
 
