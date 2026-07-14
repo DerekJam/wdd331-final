@@ -48,6 +48,7 @@ body { background: rgb(0, 0, 0); }
       --span-color: skyblue;
       --h2-color: #39FF14;
       --card-background: rgb(2, 117, 2);
+      --headerbox: rgb(0, 54, 0);
       --color-text-sections-darkblue: darkblue; 
       
       --space-sm: 0.75rem;
@@ -265,7 +266,7 @@ body {
  .dashboard-header {
     display: grid;
     gap: 1rem;
-    color: var(--color-header)
+    color: var(--headerbox);
 }
 
 
