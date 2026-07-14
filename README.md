@@ -17,28 +17,28 @@ every push to main.
 
 - Unit 1: Custom Properties (https://derekjam.github.io/wdd331-final/)
 
-- Unit 2: Layered Components, along with Architecture and Build (https://derekjam.github.io/wdd331-practice/unit-2/index.html)
+- Unit 2: Layered Components, along with Architecture and Build (https://derekjam.github.io/wdd331-final/unit-2/index.html)
 
-- Unit 3: Visual Effects (https://derekjam.github.io/wdd331-practice/unit-3/visual-effects/index.html)
+- Unit 3: Visual Effects (https://derekjam.github.io/wdd331-final/unit-3/visual-effects/index.html)
 
-- Unit 4 Part 1: Grid Layouts - Editorial (https://derekjam.github.io/wdd331-practice/unit-4/grid-layouts/editorial.html)
+- Unit 4 Part 1: Grid Layouts - Editorial (https://derekjam.github.io/wdd331-final/unit-4/grid-layouts/editorial.html)
 
-- Unit 4 Part 2: Grid Layouts - Cards (https://derekjam.github.io/wdd331-practice/unit-4/grid-layouts/cards.html)
+- Unit 4 Part 2: Grid Layouts - Cards (https://derekjam.github.io/wdd331-final/unit-4/grid-layouts/cards.html)
 
-- Unit 4 Advanced: Scroll Snap (https://derekjam.github.io/wdd331-practice/unit-4/advanced/snap-carousel.html)
+- Unit 4 Advanced: Scroll Snap (https://derekjam.github.io/wdd331-final/unit-4/advanced/snap-carousel.html)
 
-- Unit 4 Advanced Part 2: Container Demo (https://derekjam.github.io/wdd331-practice/unit-4/advanced/container-demo.html)
+- Unit 4 Advanced Part 2: Container Demo (https://derekjam.github.io/wdd331-final/unit-4/advanced/container-demo.html)
 
-- Unit 4 Advanced Part 3: Sticky Demo (https://derekjam.github.io/wdd331-practice/unit-4/advanced/sticky-demo.html)
+- Unit 4 Advanced Part 3: Sticky Demo (https://derekjam.github.io/wdd331-final/unit-4/advanced/sticky-demo.html)
 
-- Unit 4 Advanced Part 4: Updated Card Grid #1 (https://derekjam.github.io/wdd331-practice/unit-4/advanced/snap-carousel.html)
+- Unit 4 Advanced Part 4: Updated Card Grid #1 (https://derekjam.github.io/wdd331-final/unit-4/advanced/snap-carousel.html)
 
-- Unit 4 Advanced Part 5: Updated Card Grid #2 (https://derekjam.github.io/wdd331-practice/unit-4/advanced2/snap-carousel2.html)
+- Unit 4 Advanced Part 5: Updated Card Grid #2 (https://derekjam.github.io/wdd331-final/unit-4/advanced2/snap-carousel2.html)
 
-- Unit 5 Part 1: Typography Tokens and Web Font
+- Unit 5 Part 1: Typography Tokens and Web Font (https://derekjam.github.io/wdd331-final/index.html)
 
-- Unit 5 Part 2: Resume with Print CSS
+- Unit 5 Part 2: Resume with Print CSS (https://derekjam.github.io/wdd331-final/resume.html)
 
-- Unit 5 Part 3: Form
+- Unit 5 Part 3: Form (https://derekjam.github.io/wdd331-final/contact.html)
 
-- Unit 6: Meaningful Motion with Reduced-Motion Support (https://derekjam.github.io/wdd331-practice/unit-6/motion/index.html)
+- Unit 6: Meaningful Motion with Reduced-Motion Support (https://derekjam.github.io/wdd331-final/unit-6/motion/index.html)
