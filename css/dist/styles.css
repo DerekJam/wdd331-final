@@ -47,6 +47,7 @@ body { background: rgb(0, 0, 0); }
       --max: gray;
       --span-color: skyblue;
       --h2-color: #39FF14;
+      --card-background: rgb(2, 117, 2);
       --color-text-sections-darkblue: darkblue; 
       
       --space-sm: 0.75rem;
@@ -138,7 +139,7 @@ body {
 }
 
 .card-grid h2 {
-    color: var(--h2-color);
+    color: var(--card-background);
     font-size: var(--font-size-body-md);
 }
 
