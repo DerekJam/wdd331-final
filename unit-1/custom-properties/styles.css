@@ -53,6 +53,48 @@
 
 
 
+
+
+
+   /* ========================================
+    TRYING STICKY HEADER
+   ======================================== */
+.site-header {
+    position: sticky;
+    top: 0;
+    overflow: visible;
+    margin-inline: auto;
+    display: flex;
+    width: 100%;
+    flex-direction:column;
+    padding: var(--space-ml, 1rem) var(--space-ms, 1rem);
+    background-color: var(--color-main-bgdark);
+    color: var(--color-gold);
+    text-align: center;
+    
+        a {
+         color: var(--span-color);                
+         }
+
+        a:hover {
+         color: var(--h2-color);                    
+         }
+
+        a:visited {
+         color: var(--color-lightgray);                            
+         }
+}
+
+
+
+
+
+
+
+
+
+
+
 /* ========================================
    BASE STYLES
    Style the body, links, and any raw
