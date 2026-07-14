@@ -266,7 +266,7 @@ body {
  .dashboard-header {
     display: grid;
     gap: 1rem;
-    color: var(--card-background);
+    color: var(--h2-color);
 }
 
 

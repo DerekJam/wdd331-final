@@ -86,8 +86,16 @@
 }
 
 
+ .dashboard-header {
+    display: grid;
+    gap: 1rem;
+    color: var(--h2-color);
+}
 
 
+.dashboard-header > * {
+    border: 2px solid var(--headerbox);
+}
 
 
 
