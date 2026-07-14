@@ -98,6 +98,10 @@
 }
 
 
+.site-nav {
+    /* padding, margin-bottom */
+   padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
+}
 
 
 
