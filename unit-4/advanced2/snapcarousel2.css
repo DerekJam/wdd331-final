@@ -75,7 +75,7 @@
 
 
 .articles-page {
-    background-color: var(--h2-color);
+    background-color: var(--color-main-bgdark);
     color: var(--color-header);
     padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
     border-radius: var(--radius);
