@@ -57,7 +57,7 @@
       --spacing-medium: 1.00rem;
       --spacing-large: 1.50rem;
       --spacing-flex: 2vw;
-      
+
 }
 
 
@@ -241,7 +241,7 @@ body {
     flex-direction:column;
     padding: var(--spacing-large, 2rem) var(--spacing-medium, 1rem);
     background-color: var(--color-main-bgdark);
-    color: var(--color-text);
+    color: var(--color-gold);
     text-align: center;
     
         a {
@@ -413,11 +413,11 @@ div.status {
          }
 
         a:hover {
-         color: var(--h2-color);
+         color: var(--color-header);
          }
 
         a:visited {
-         color: var(--color-text-sections-darkblue);
+         color: var(--color-lightgray);
          }
 }
 
