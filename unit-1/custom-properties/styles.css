@@ -15,6 +15,7 @@
       --color-hoveringlinks-magenta: #FF00FF;
       --color-lightblue: #4B9CD3;
       --color-lightgray: #D3D3D3;
+      --color-header: gold;
 
     /* Spacing */
       --space-xs: 0.50rem;
@@ -170,6 +171,15 @@ body {
    padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
 }
 
+ .dashboard-header {
+    display: grid;
+    gap: 1rem;
+    color: var(--color-header)
+}
+
+.dashboard-header > * {
+    border: 2px solid #00ff2a2d;
+}
 
 /* ========================================
    BOARD HEADER
@@ -271,6 +281,11 @@ body {
       padding: clamp(var(--space-sm), var(--space-flex), var(--space-lg));
 
 }
+
+
+
+
+
 
 
 /* ========================================
