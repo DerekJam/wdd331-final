@@ -187,5 +187,18 @@ body {
 
 
 
-
+.site-footer {
+    position: sticky;
+    bottom: 0;
+    overflow: visible;
+    margin-inline: auto;
+    display: flex;
+    width: 100%;
+    flex-direction:column;
+    padding: var(--spacing-large, 1rem) var(--spacing-medium, 1rem);
+    background-color: var(--color-main-bgdark);
+    color: var(--color-gold);
+    text-align: center;
+    font-size: var(--font-size-body-xs);
+}
 
