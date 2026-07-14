@@ -15,6 +15,7 @@
       --line-height: 1.75rem;
       --font-weight: 1.0rem;
       --letter-spacing: .25rem; 
+      --font-size-body-xs:    var(--font-size-xs);
 
     /* Borders */  
       --radius: 0.50rem;
