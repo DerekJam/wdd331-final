@@ -64,9 +64,9 @@ body { background: rgb(0, 0, 0); }
 
           /* Cards: Shadow Medium */
         --shadow-medium:
-        0 2px 4px oklch(78.754% 0.25161 144.491),
-        0 6px 12px oklch(78.754% 0.25161 144.491),
-        0 16px 32px oklch(78.754% 0.25161 144.491);
+        0 2px 4px oklch(61.601% 0.19534 144.739),
+        0 6px 12px oklch(61.601% 0.19534 144.739),
+        0 16px 32px oklch(61.601% 0.19534 144.739);
 }
 
 
