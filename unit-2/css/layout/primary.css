@@ -45,7 +45,7 @@ main > section {
     flex-direction:column;
     padding: var(--spacing-large, 1rem) var(--spacing-medium, 1rem);
     background-color: var(--color-main-bgdark);
-    color: var(--color-text);
+    color: var(--color-gold);
     text-align: center;
     
         a {
@@ -53,7 +53,7 @@ main > section {
          }
 
         a:hover {
-         color: var(--h2-color);
+         color: var(--color-text);
          }
 
         a:visited {
@@ -74,7 +74,7 @@ main > section {
  .dashboard-header {
     display: grid;
     gap: 1rem;
-    color: var(--color-header);;
+    color: var(--color-gold);;
 }
 
 
