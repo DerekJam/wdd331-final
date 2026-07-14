@@ -2,6 +2,7 @@
    Name by purpose (--color-primary, --color-surface)
    not appearance (--blue, --light-gray). */
 :root {
+
    /* Color Tokens */
       --color-background: #002cf0;
       --color-accent: #00ff15;
@@ -12,5 +13,35 @@
       --color-hover: #b600b6;
       --color-cards: #7BAFD4;
       --color-cards-text: #002cf0;
+      --color-main-bgdark: #000814;
+      --color-gold: #FFC300;
+      --color-carolinablue: #0077B6;
+      --color-text-sectionheaders-yellow: #FFFF00;
+      --color-text-sections-darkblue: #FFFFFF; 
+      --color-visitedlinks-gray: #D3D3D3;
+      --color-hoveringlinks-magenta: #FF00FF;
+      --color-lightblue: #4B9CD3;
+      --color-lightgray: #D3D3D3;
+      --color-header: gold;
+            --color-main-bgdark: black;
+      --color-header: gold;
+      --color-text: #FFFFFF; 
+      --color-background: darkblue;
+      --max: gray;
+      --span-color: skyblue;
+      --h2-color: #39FF14;
+      --card-background: rgb(2, 117, 2);
+      --color-text-sections-darkblue: darkblue; 
+      
+      --space-sm: 0.75rem;
+      --space-md: 1.25rem;
+      --space-lg: 2.50rem;
+      --space-flex: 2vw;
+  
+      --font-body: Verdana, Helvetica, sans-serif;
+      --font-size-links: 1.25rem;
+
+
+
 
       }

@@ -1,6 +1,7 @@
 /* Non-color tokens: spacing, typography, borders, shadows.
    These values should be referenced by every other layer. */
 :root {
+
     /* Spacing Tokens*/
       --spacing-small: 0.50rem;
       --spacing-medium: 1.00rem;
