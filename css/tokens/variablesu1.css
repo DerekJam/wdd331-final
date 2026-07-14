@@ -15,7 +15,7 @@
       --line-height: 1.75rem;
       --font-weight: 1.0rem;
       --letter-spacing: .25rem; 
-      
+
     /* Modular scale steps: replaced with chosen ratio values - Unit 5 Part 1 : AI indicated should go up or down by 1.25 for each step */
       --font-size-xs:  0.64rem; /* 10.24px */;
       --font-size-sm:  0.8rem; /* 12.80px */;
@@ -55,7 +55,10 @@
 
 
       --space-flex: 2vw;
-
+      --spacing-small: 0.50rem;
+      --spacing-medium: 1.00rem;
+      --spacing-large: 1.50rem;
+      --spacing-flex: 2vw;
 
 
 /*Variables referenced for Unit 1 - Custom Properties*/
