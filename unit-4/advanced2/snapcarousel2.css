@@ -80,7 +80,7 @@ body { background: rgb(0, 0, 0); }
 
 
 .articles-page {
-    background-color: var(--color-text);
+    background-color: var(--h2-color);
     color: var(--color-header);
     padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
     border-radius: var(--radius);
