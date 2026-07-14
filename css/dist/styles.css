@@ -139,7 +139,7 @@ body {
 }
 
 .card-grid h2 {
-    color: var(--card-background);
+    color: var(--h2-color);
     font-size: var(--font-size-body-md);
 }
 
