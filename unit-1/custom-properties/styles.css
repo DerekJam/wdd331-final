@@ -89,7 +89,7 @@
  .dashboard-header {
     display: grid;
     gap: 1rem;
-    color: var(--h2-color);
+    color: var(--color-gold);;
 }
 
 
