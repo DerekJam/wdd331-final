@@ -266,7 +266,7 @@ body {
  .dashboard-header {
     display: grid;
     gap: 1rem;
-    color: var(--headerbox);
+    color: var(--card-background);
 }
 
 
@@ -275,7 +275,7 @@ body {
 
 
 .dashboard-header > * {
-    border: 2px solid var(--card-background);
+    border: 2px solid var(--headerbox);
 }
 
 
