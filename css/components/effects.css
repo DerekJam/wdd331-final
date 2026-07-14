@@ -116,7 +116,6 @@
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
    padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
-   background-color: var(--color-cards-text);
 }
 
 
