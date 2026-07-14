@@ -21,7 +21,7 @@ body { background: rgb(0, 0, 0); }
     text-align: center;
     
         a {
-         color: var(--color-background);
+         color: var(--span-color);
          }
 
         a:hover {
