@@ -13,7 +13,7 @@ every push to main.
 
 ## Pages
 
-- [Home](index.html)
+- [Home](index.html) (Added SVG Icons)
 
 - Unit 1: Custom Properties (https://derekjam.github.io/wdd331-final/)
 
