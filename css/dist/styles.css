@@ -324,8 +324,8 @@ body {
 
 
 .info-icon {
-	width: 24rem; 
-	height: 24rem;
+	width: 24px; 
+	height: 24px;
 	fill: none; 
 	stroke: currentColor;
 	stroke-width: 2; 
@@ -336,8 +336,8 @@ body {
 
 
 .monitor-icon {
-	width: 24rem; 
-	height: 24rem;
+	width: 24px; 
+	height: 24px;
 	fill: none; 
 	stroke: currentColor;
 	stroke-width: 2; 
@@ -349,8 +349,8 @@ body {
 
 
 .tv-icon {
-	width: 24rem; 
-	height: 24rem;
+	width: 24px; 
+	height: 24px;
 	fill: none; 
 	stroke: currentColor;
 	stroke-width: 2; 
