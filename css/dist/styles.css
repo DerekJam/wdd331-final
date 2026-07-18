@@ -309,17 +309,53 @@ body {
 
 
 
+/* START CSS FOR SVG IMAGES */
+.svg-cr {
+    width: 1em;
+    height: 1em;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    vertical-align: -0.125em; /* nudge to optical baseline alignment */
+}
+
+
+
+.info-icon {
+	width: 24rem; 
+	height: 24rem;
+	fill: none; 
+	stroke: currentColor;
+	stroke-width: 2; 
+	stroke-linecap: round; 
+	stroke-linejoin: round;
+}
+
 
 
 .monitor-icon {
-	width="24" 
-	height="24"
-	fill="none" 
-	stroke="currentColor" 
-	stroke-width="2" 
-	stroke-linecap="round" 
-	stroke-linejoin="round"
-	circle cx="18" 
-	cy="6" 
-	r="3"	
+	width: 24rem; 
+	height: 24rem;
+	fill: none; 
+	stroke: currentColor;
+	stroke-width: 2; 
+	stroke-linecap: round; 
+	stroke-linejoin: round;
 }
+
+
+
+
+.tv-icon {
+	width: 24rem; 
+	height: 24rem;
+	fill: none; 
+	stroke: currentColor;
+	stroke-width: 2; 
+	stroke-linecap: round; 
+	stroke-linejoin: round;
+
+}
+/* CLOSE CSS FOR SVG IMAGES */
