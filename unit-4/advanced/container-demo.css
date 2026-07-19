@@ -29,6 +29,9 @@ body { background: rgb(0, 0, 0); }
 }
 
 
+
+
+/*.site-header is good to go */
 header {
     position: sticky;
     top: 0;
@@ -36,8 +39,8 @@ header {
     margin-inline: auto;
     display: flex;
     width: 100%;
-    flex-direction:column;
     padding: 0.5rem 0.5rem;
+    flex-direction:column;
     background-color: var(--color-main-bgdark);
     color: var(--h2-color);
     text-align: center;
@@ -53,7 +56,10 @@ header {
         a:visited {
          color: var(--max);
          }
-}
+        }
+/*.site-header is good to go */
+
+
 
 
 
@@ -65,14 +71,13 @@ header {
     margin-inline: auto;
     display: flex;
     width: 100%;
-    flex-direction: column;
+    flex-direction:column;
     padding: 0.25rem 1rem;
     background-color: var(--color-main-bgdark);
     color: var(--color-gold);
     text-align: center;
     font-size: var(--font-size-body-xs);
 }
-
 
 :root {
       --color-main-bgdark: black;
