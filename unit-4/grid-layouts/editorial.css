@@ -89,5 +89,30 @@ footer {
 
 
 
+.dashboard-header > * {
+    border: 2px solid #00ff2a2d;
+}
 
 
+ .dashboard-header {
+    display: grid;
+    gap: 1rem;
+    color: var(--color-header)
+}
+
+
+
+.site-footer {
+    position: sticky;
+    bottom: 0;
+    overflow: visible;
+    margin-inline: auto;
+    display: flex;
+    width: 100%;
+    flex-direction:column;
+    padding: 0.25rem 1rem;
+    background-color: var(--color-main-bgdark);
+    color: var(--color-gold);
+    text-align: center;
+    font-size: var(--font-size-body-xs);
+}
