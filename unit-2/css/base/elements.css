@@ -49,7 +49,7 @@ li {
     display: flex;
     width: 100%;
     flex-direction: column;
-    padding: var(--spacing-large, 1rem) var(--spacing-medium, 1rem);
+    padding: 0.25rem 1rem;
     background-color: var(--color-main-bgdark);
     color: var(--color-gold);
     text-align: center;
@@ -67,7 +67,7 @@ li {
     display: flex;
     width: 100%;
     flex-direction:column;
-    padding: var(--spacing-large, 1rem) var(--spacing-medium, 1rem);
+    padding: 0.5rem 0.5rem;
     background-color: var(--color-main-bgdark);
     color: var(--color-gold);
     text-align: center;
