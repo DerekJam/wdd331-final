@@ -59,7 +59,16 @@ header {
         }
 /*.site-header is good to go */
 
+.dashboard-header > * {
+    border: 2px solid #00ff2a2d;
+}
 
+
+ .dashboard-header {
+    display: grid;
+    gap: 1rem;
+    color: var(--color-header)
+}
 
 
 
